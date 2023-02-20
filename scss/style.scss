@@ -1,0 +1,44 @@
+@use 'sass:math';
+
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        color: 	#FF00FF;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 29rem;
+
+        div.color {
+            display: flex;
+            gap: 28px;
+
+            input {
+                border-radius: 5px;
+                background-color: aliceblue;
+                border-color: #B0C4DE;
+            }
+        }
+
+        .ckeckbox {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+}
+
